@@ -1,4 +1,4 @@
-def add(a,b):
+def add(a:int,b:int):
     result = a + b
     return result
     return result
@@ -16,7 +16,7 @@ def add(a,b):
 
     '''
 
-def subtract(a,b):
+def subtract(a:int,b:int):
     result = a - b
     return result
 
@@ -35,7 +35,7 @@ def subtract(a,b):
 
     '''
 
-def multiply(a,b):
+def multiply(a:int,b:int):
     result = a * b
     return result
 
@@ -54,7 +54,7 @@ def multiply(a,b):
     '''
 
 
-def divid(a,b):
+def divid(a:int,b:int):
     result = a / b
     return result
 
@@ -65,7 +65,7 @@ def divid(a,b):
     b(float): ikkinchi son
 
     Returns:
-    float:bolinmasi
+    float:bolinmas
 
     Raises:
     TypeError:type error
